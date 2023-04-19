@@ -1,13 +1,13 @@
-<h1>My Header</h1>
 <section class="hero is-link is-small">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-          </a>
+          <%= link_to root_path, class: 'navbar-item' do%>
+            <span class='has-textweight-bold is-size-4 ml-4'>FoodLog</span>
+            
+          <% end %>
           <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
